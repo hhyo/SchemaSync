@@ -1,3 +1,4 @@
+#--coding:utf8--!--
 #!/usr/bin/python
 
 import re
@@ -47,7 +48,6 @@ PATCH_TPL = """--
 -- Server Version: %(server_version)s
 -- Apply To: %(target_host)s/%(target_database)s
 --
-
 %(data)s"""
 
 

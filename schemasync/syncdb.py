@@ -1,3 +1,4 @@
+#--coding:utf8--!--
 from utils import REGEX_TABLE_AUTO_INC, REGEX_TABLE_COMMENT
 
 

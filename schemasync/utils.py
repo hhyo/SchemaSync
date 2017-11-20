@@ -1,3 +1,10 @@
+#--coding:utf8--!--
+#--!--coding:utf8--!--
+import sys
+if sys.getdefaultencoding() != 'utf8':
+    reload(sys)
+    sys.setdefaultencoding('utf8')
+
 """Utility functions for Schema Sync"""
 
 import re
