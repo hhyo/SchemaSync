@@ -7,12 +7,13 @@ ez_setup.use_setuptools()
 from setuptools import setup
 
 setup(
-    name='SchemaSync',
-    version='0.9.4',
+    name='schema-sync',
+    version='0.9.5',
     description='A MySQL Schema Synchronization Utility',
     author='Mitch Matuson, Mustafa Ozgur',
+    url='https://github.com/hhyo/SchemaSync',
     packages=['schemasync'],
-    install_requires=['SchemaObject >= 0.5.7'],
+    install_requires=['schema-object >= 0.5.8'],
     entry_points={
         'console_scripts': [
             'schemasync = schemasync.schemasync:main',
